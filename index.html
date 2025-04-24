@@ -27,6 +27,36 @@
 	<div id="wrapper">
 		<img class="fotobio" src="serra-quest-passeios-de-quadriciclo-monte-verde-mg.jpg" draggable="false" alt="Serra Quest Passeios de Quadriciclo em Monte Verde Minas Gerais">
 		<div class="botoes">
+			<span onclick="abrirUm()" class="botao">Passeio de Quadriciclo</span>
+			<div id="abrirum" class="modal">
+				<div class="modal-content">
+					<a href="javascript:void(0)" onclick="fecharUm()" class="close"><i class="fa fa-times" aria-hidden="true"></i></a>
+					<a href="index"><img class="imgmodal" src="passeio-de-quadriciclo-monte-verde-mg.jpg" draggable="false" alt="Passeio de Quadriciclo em Monte Verde"></a>
+					<h1>Serra Quest <span class="modalmenor"> Passeios de Quadriciclo em Monte Verde</span></h1>
+					<div class="clear"></div>
+					<p>A <b>Serra Quest Passeios de Quadriciclo em Monte Verde</b> é uma empresa familiar especializada em turismo de aventura, nossa equipe é treinada, experiente, sempre atuando com muita dedicação e profissionalismo.</p>
+					<p>Nosso <b>Passeio de Quadriciclo</b> é feito na Fazenda Cruzeiro do Sul em Monte Verde e diferenciado aos outros da região. São hectares de áreas nativas, preservadas e uma das melhores opções para os amantes de emoção, natureza e lindas paisagens.</p>
+					<p>A <b>Trilha Off-road</b> é em meio a natureza e o circuito passa por um bosque de árvores centenárias. São dois mirantes, um com vista espetacular para o vale com altitude de 1.685 metros e outro para apreciar o belíssimo pôr do sol.</p>
+					<p>Nossos guias acompanham o passeio do início ao fim para você e sua família desfrutarem com muito mais segurança. Venha se divertir, aproveitar o pôr do sol e tirar fotos fantásticas.</p>
+					<ul>
+						<li class="titu">Passeio De Quadriciclo</li>
+						<li><i class="fa fa-check checkpag"></i> Trilha na Fazenda Cruzeiro do Sul;</li>						
+						<li><i class="fa fa-check checkpag"></i> Quadriciclo Honda 420 cilindradas;</li>
+						<li><i class="fa fa-check checkpag"></i> Passeio 45 minutos a 1 hora;</li>
+						<li><i class="fa fa-check checkpag"></i> Circuito Off-road com Guia;</li>
+						<li><i class="fa fa-check checkpag"></i> Capacete obrigatório incluso no passeio;</li>
+						<li><i class="fa fa-check checkpag"></i> Touca higiênica inclusa no passeio;</li>
+						<li><i class="fa fa-check checkpag"></i> Treinamento antes do passeio;</li>
+						<li><i class="fa fa-check checkpag"></i> Teste drive e instruções com o Guia;</li>
+						<li><i class="fa fa-check checkpag"></i> Condutor deve ter 18 anos ou mais;</li>
+						<li><i class="fa fa-check checkpag"></i> Passagem pela Plantação de Araucária;</li>
+						<li><i class="fa fa-check checkpag"></i> Dois Mirantes e paradas para Fotos;</li>
+						<li><i class="fa fa-check checkpag"></i> Pôr do sol sujeito a clima e ao mês.</li>
+					</ul>
+					<p>Quer agendar o seu <b>Passeio de Quadriciclo em Monte Verde</b>?</p>
+					<p><a href="https://wa.me/5535997326421?text=Olá%20Serra%20Quest%20Passeios%20de%20Quadriciclo%20em%20Monte%20Verde%20MG,%20eu%20estava%20no%20Site%20e%20gostaria%20de%20mais%20informações!%20Meu%20nome%20é..." target="_blank" class="buttonorcamento">Reservar via WhatsApp</a><span onclick="fecharUm()" class="closebtn">Fechar</span></p>
+				</div>
+			</div>
 			<a href="https://wa.me/5535997326421?text=Olá%20Serra%20Quest%20Passeios%20de%20Quadriciclo%20em%20Monte%20Verde%20MG,%20eu%20estava%20no%20Site%20e%20gostaria%20de%20mais%20informações!%20Meu%20nome%20é..." class="botao" target="_blank">Chamar no WhatsApp</a>
 			<a href="https://wa.me/5535997326421?text=Olá%20Serra%20Quest%20Passeios%20de%20Quadriciclo%20em%20Monte%20Verde%20MG,%20eu%20estava%20no%20Site%20e%20gostaria%20de%20mais%20informações!%20Meu%20nome%20é..." class="botao" target="_blank">Reservas Online</a>
 			<a href="https://www.instagram.com/serraquest_passeios/" class="botao" target="_blank">Instagram</a>
@@ -40,5 +70,14 @@
 			<a href="https://wa.me/5535997326421?text=Olá%20Serra%20Quest%20Passeios%20de%20Quadriciclo%20em%20Monte%20Verde%20MG,%20eu%20estava%20no%20Site%20e%20gostaria%20de%20mais%20informações!%20Meu%20nome%20é..." class="fa fa-whatsapp" target="_blank"></a>
 		</div>
 	</div>
+	<script>
+		function abrirUm() {
+			document.getElementById("abrirum").style.display = "block";
+		}
+
+		function fecharUm() {
+			document.getElementById("abrirum").style.display = "none";
+		}
+	</script>
 </body>
 </html>
